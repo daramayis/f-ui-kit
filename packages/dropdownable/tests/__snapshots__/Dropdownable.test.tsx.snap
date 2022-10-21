@@ -59,17 +59,24 @@ exports[`Dropdownable is visible after opening 1`] = `
         <Memo(FocusStyleManager)
           focusEnabledClass="css-xcotv6"
         >
-          <button
-            className="emotion-0"
+          <ForwardRef
+            appearance="primary"
             data-cy="primaryButton"
-            onClick={[Function]}
-            tabIndex={0}
-            type="button"
           >
-            <span>
-              Click me
-            </span>
-          </button>
+            <button
+              className="emotion-0"
+              data-cy="primaryButton"
+              onClick={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <ButtonContent>
+                <span>
+                  Click me
+                </span>
+              </ButtonContent>
+            </button>
+          </ForwardRef>
         </Memo(FocusStyleManager)>
       </Memo(ButtonBase)>
     </PrimaryButton>
@@ -136,17 +143,24 @@ exports[`Dropdownable is visible after opening 2`] = `
         <Memo(FocusStyleManager)
           focusEnabledClass="css-xcotv6"
         >
-          <button
-            className="emotion-0"
+          <ForwardRef
+            appearance="primary"
             data-cy="primaryButton"
-            onClick={[Function]}
-            tabIndex={0}
-            type="button"
           >
-            <span>
-              Click me
-            </span>
-          </button>
+            <button
+              className="emotion-0"
+              data-cy="primaryButton"
+              onClick={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <ButtonContent>
+                <span>
+                  Click me
+                </span>
+              </ButtonContent>
+            </button>
+          </ForwardRef>
         </Memo(FocusStyleManager)>
       </Memo(ButtonBase)>
     </PrimaryButton>

@@ -2741,17 +2741,25 @@ exports[`Modal DialogModal renders DialogModal 1`] = `
                                         <Memo(FocusStyleManager)
                                           focusEnabledClass="css-1h85cd2"
                                         >
-                                          <button
-                                            className="emotion-14"
+                                          <ForwardRef
+                                            appearance="secondary"
                                             data-cy="secondaryButton"
-                                            onClick={[Function]}
-                                            tabIndex={0}
-                                            type="button"
+                                            onClick={[MockFunction]}
                                           >
-                                            <span>
-                                              Close
-                                            </span>
-                                          </button>
+                                            <button
+                                              className="emotion-14"
+                                              data-cy="secondaryButton"
+                                              onClick={[Function]}
+                                              tabIndex={0}
+                                              type="button"
+                                            >
+                                              <ButtonContent>
+                                                <span>
+                                                  Close
+                                                </span>
+                                              </ButtonContent>
+                                            </button>
+                                          </ForwardRef>
                                         </Memo(FocusStyleManager)>
                                       </Memo(ButtonBase)>
                                     </SecondaryButton>
@@ -2767,17 +2775,24 @@ exports[`Modal DialogModal renders DialogModal 1`] = `
                                         <Memo(FocusStyleManager)
                                           focusEnabledClass="css-xcotv6"
                                         >
-                                          <button
-                                            className="emotion-16"
+                                          <ForwardRef
+                                            appearance="primary"
                                             data-cy="primaryButton"
-                                            onClick={[Function]}
-                                            tabIndex={0}
-                                            type="button"
                                           >
-                                            <span>
-                                              CTA
-                                            </span>
-                                          </button>
+                                            <button
+                                              className="emotion-16"
+                                              data-cy="primaryButton"
+                                              onClick={[Function]}
+                                              tabIndex={0}
+                                              type="button"
+                                            >
+                                              <ButtonContent>
+                                                <span>
+                                                  CTA
+                                                </span>
+                                              </ButtonContent>
+                                            </button>
+                                          </ForwardRef>
                                         </Memo(FocusStyleManager)>
                                       </Memo(ButtonBase)>
                                     </PrimaryButton>
@@ -5634,17 +5649,25 @@ exports[`Modal FullscreenModal renders FullscreenModal 1`] = `
                                               <Memo(FocusStyleManager)
                                                 focusEnabledClass="css-1h85cd2"
                                               >
-                                                <button
-                                                  className="emotion-9"
+                                                <ForwardRef
+                                                  appearance="secondary"
                                                   data-cy="secondaryButton"
-                                                  onClick={[Function]}
-                                                  tabIndex={0}
-                                                  type="button"
+                                                  onClick={[MockFunction]}
                                                 >
-                                                  <span>
-                                                    Close
-                                                  </span>
-                                                </button>
+                                                  <button
+                                                    className="emotion-9"
+                                                    data-cy="secondaryButton"
+                                                    onClick={[Function]}
+                                                    tabIndex={0}
+                                                    type="button"
+                                                  >
+                                                    <ButtonContent>
+                                                      <span>
+                                                        Close
+                                                      </span>
+                                                    </ButtonContent>
+                                                  </button>
+                                                </ForwardRef>
                                               </Memo(FocusStyleManager)>
                                             </Memo(ButtonBase)>
                                           </SecondaryButton>
@@ -5672,17 +5695,24 @@ exports[`Modal FullscreenModal renders FullscreenModal 1`] = `
                                               <Memo(FocusStyleManager)
                                                 focusEnabledClass="css-xcotv6"
                                               >
-                                                <button
-                                                  className="emotion-14"
+                                                <ForwardRef
+                                                  appearance="primary"
                                                   data-cy="primaryButton"
-                                                  onClick={[Function]}
-                                                  tabIndex={0}
-                                                  type="button"
                                                 >
-                                                  <span>
-                                                    CTA
-                                                  </span>
-                                                </button>
+                                                  <button
+                                                    className="emotion-14"
+                                                    data-cy="primaryButton"
+                                                    onClick={[Function]}
+                                                    tabIndex={0}
+                                                    type="button"
+                                                  >
+                                                    <ButtonContent>
+                                                      <span>
+                                                        CTA
+                                                      </span>
+                                                    </ButtonContent>
+                                                  </button>
+                                                </ForwardRef>
                                               </Memo(FocusStyleManager)>
                                             </Memo(ButtonBase)>
                                           </PrimaryButton>
